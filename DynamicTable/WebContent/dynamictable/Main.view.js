@@ -11,7 +11,7 @@ sap.ui.jsview("dynamictable.Main", {
 		
 		var oBtn = new sap.ui.commons.Button({
 			text: "Hello Filter", 
-			press: oController.onExecuteFilter 
+			press: oController.onExecuteFilter ,
 		});
 		
 		var oBtnS = new sap.ui.commons.Button({
