@@ -24,6 +24,8 @@ sap.ui.jsview("dynamictable.Main", {
 			press: oController.onExecuteDeepInsert 
 		});
 		
+		
+		
 				
 		var oTable = new sap.ui.table.Table("tblResults",{
 	        visibleRowCount: 20, 

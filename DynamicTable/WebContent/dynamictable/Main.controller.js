@@ -41,8 +41,9 @@ sap.ui.controller("dynamictable.Main", {
 		var path = "/PurchaseOrderCollection";
 		oTable.bindRows({
 			path: path, 
+			//parameters: { select: "VendorID,CompanyCode"},   //select this later !!!!
 		});
-		//oTable.setModel(oModel);
+		//oTable.setModel(oModel); not necessary. table will find model 
 
 	},
 
@@ -67,6 +68,8 @@ sap.ui.controller("dynamictable.Main", {
 
 
 	},
+	
+	
 
 
 	onExecuteDeepInsert: function(oEvent){
